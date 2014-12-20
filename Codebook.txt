@@ -1,0 +1,91 @@
+
+Human Activity Recognition using smartphones data set.
+30 volunteers with the Samsung Galaxy SII on the waist.
+Using it's embedded acceleometer and gyroscope to capture 3-axial linear acceleration and 3 axial angular velocity.
+Data has been randomly partitionned into two sets of data.
+70% selected for training data set (X_train.txt)
+30% selected for test data set (X_test.txt)
+
+X_train:  1:4124472
+X_test:   1:1653267 
+
+Subject:       30
+
+Activity:      6
+   WALKING
+   WALKING_UPSTAIRS
+   WALKING_DOWNSTAIRS
+   SITTING
+   STANDING
+   LAYING
+
+features:  60 with "mean" (mean value) and "std" (standard deviation)
+'.XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+prefix 't' is used to denote time data
+prefix 'f' is used to denote frequency domain signals
+'mean' denote the mean value
+'std' denote the standard deviation
+                 
+ "tBodyAcc.mean...X"            Body linear acceleration 'mean' data for X axis
+ "tBodyAcc.mean...Y"            Body linear acceleration 'mean' data for Y axis        
+ "tBodyAcc.mean...Z"            Body linear acceleration 'mean' data for Z axis
+ "tBodyAcc.std...X"             Body linear acceleration 'std' data for X axis
+ "tBodyAcc.std...Y"             Body linear acceleration 'std' data for Y axis
+ "tBodyAcc.std...Z"             Body linear acceleration 'std' data for Z axis
+ "tGravityAcc.mean...X"         Gravity acceleration 'mean' data for X axis
+ "tGravityAcc.mean...Y"         Gravity acceleration 'mean' data for Y axis
+ "tGravityAcc.mean...Z"         Gravity acceleration 'mean' data for Z axis
+ "tGravityAcc.std...X"          Gravity acceleration 'std' data for X axis
+ "tGravityAcc.std...Y"          Gravity acceleration 'std' data for Y axis
+ "tGravityAcc.std...Z"          Gravity acceleration 'std' data for Z axis
+ "tBodyAccJerk.mean...X"        Jerk signals 'mean' from body linear acceleration and angular velocity on X axis
+ "tBodyAccJerk.mean...Y"        Jerk signals 'mean' from body linear acceleration and angular velocity on Y axis
+ "tBodyAccJerk.mean...Z"        Jerk signals 'mean' from body linear acceleration and angular velocity on Z axis
+ "tBodyAccJerk.std...X"         Jerk signals 'std' from body linear acceleration and angular velocity on X axis
+ "tBodyAccJerk.std...Y"         Jerk signals 'std' from body linear acceleration and angular velocity on Y axis
+ "tBodyAccJerk.std...Z"         Jerk signals 'std' from body linear acceleration and angular velocity on Z axis
+ "tBodyGyro.mean...X"           Body signals 'mean' from gyroscope 3-axial on X axis
+ "tBodyGyro.mean...Y"           Body signals 'mean' from gyroscope 3-axial on X axis
+ "tBodyGyro.mean...Z"           Body signals 'mean' from gyroscope 3-axial on X axis
+ "tBodyGyro.std...X"            Body signals 'std' from  gyroscope 3-axial on X axis
+ "tBodyGyro.std...Y"            Body signals 'std' from gyroscope 3-axial on X axis
+ "tBodyGyro.std...Z"            Body signals 'std' from gyroscope 3-axial on X axis
+ "tBodyGyroJerk.mean...X"       Jerk signals 'mean' from gyroscope 3-axial on X axis
+ "tBodyGyroJerk.mean...Y"       Jerk signals 'mean' from gyroscope 3-axial on Y axis   
+ "tBodyGyroJerk.mean...Z"       Jerk signals 'mean' from gyroscope 3-axial on Z axis
+ "tBodyGyroJerk.std...X"        Jerk signals 'std' from gyroscope 3-axial on X axis
+ "tBodyGyroJerk.std...Y"        Jerk signals 'std' from gyroscope 3-axial on Y axis
+ "tBodyGyroJerk.std...Z"        Jerk signals 'std' from gyroscope 3-axial on Z axis
+ "tBodyAccMag.mean.."           Body linear acceleration magnitude 'mean' data
+ "tBodyAccMag.std.."            Body linear acceleration magnitude 'std' data    
+ "tGravityAccMag.mean.."        Gravity acceleration magnitude 'mean' data
+ "tGravityAccMag.std.."         Gravity acceleration magnitude 'std' data
+ "tBodyAccJerkMag.mean.."       Jerk signals from linear acceleration magnitude 'mean' data
+ "tBodyAccJerkMag.std.."        Jerk signals from linear acceleration magnitude 'std' data
+ "tBodyGyroMag.mean.."          Body signals magnitude 'mean' data from gyroscope 3-axial
+ "tBodyGyroMag.std.."           Body signals magnitude 'std' data from gyroscope 3-axial
+ "tBodyGyroJerkMag.mean.."      Jerk signals magnitude 'mean' data from gyroscope 3-axial
+ "tBodyGyroJerkMag.std.."       Jerk signals magnitude 'std' data from gyroscope 3-axial
+ "fBodyAcc.mean...X"            Body linear acceleration 'mean' data for X axis
+ "fBodyAcc.mean...Y"            Body linear acceleration 'mean' data for Y axis
+ "fBodyAcc.mean...Z"            Body linear acceleration 'mean' data for Z axis
+ "fBodyAcc.std...X"             Body linear acceleration 'std' data for X axis
+ "fBodyAcc.std...Y"             Body linear acceleration 'std' data for Y axis
+ "fBodyAcc.std...Z"             Body linear acceleration 'std' data for Z axis
+ "fBodyAccJerk.mean...X"        Jerk signals 'mean' from body linear acceleration and angular velocity on X axis
+ "fBodyAccJerk.mean...Y"        Jerk signals 'mean' from body linear acceleration and angular velocity on Y axis
+ "fBodyAccJerk.mean...Z"        Jerk signals 'mean' from body linear acceleration and angular velocity on Z axis
+ "fBodyAccJerk.std...X"         Jerk signals 'std' from body linear acceleration and angular velocity on X axis
+ "fBodyAccJerk.std...Y"         Jerk signals 'std' from body linear acceleration and angular velocity on Y axis
+ "fBodyAccJerk.std...Z"         Jerk signals 'std' from body linear acceleration and angular velocity on z axis
+ "fBodyGyro.mean...X"           Body signals 'mean' from gyroscope 3-axial on X axis
+ "fBodyGyro.mean...Y"           Body signals 'mean' from gyroscope 3-axial on Y axis
+ "fBodyGyro.mean...Z"           Body signals 'mean' from gyroscope 3-axial on Z axis
+ "fBodyGyro.std...X"            Body signals 'std' from gyroscope 3-axial on X axis
+ "fBodyGyro.std...Y"            Body signals 'std' from gyroscope 3-axial on Y axis
+ "fBodyGyro.std...Z"            Body signals 'std' from gyroscope 3-axial on Z axis
+ "fBodyAccMag.mean.."           Body linear acceleration magnitude 'mean' data
+ "fBodyAccMag.std.."            Body linear acceleration magnitude 'std' data
+
+
+
